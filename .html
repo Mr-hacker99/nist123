@@ -1,0 +1,15 @@
+var cityList = ["City1", "City2", "City3"];
+var citypick = document.getElementById('mySelect');
+citypick.onchange= displayFunction;
+
+function displayFunction() {
+    for(var i =0; i< cityList.length;i++){
+      var selectCity = document.getElementById(cityList[i]);
+      if(selectCity.id == citypick.value){
+        selectCity.style.display = 'block';
+      }
+      else{
+        selectCity.style.display = 'none';
+      }
+    }
+}
