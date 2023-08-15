@@ -1,2 +1,2 @@
-Print(" Sushant Poudel ")
-print( 'Shrijan ')
+printf("Sushant Poudel")
+printf('Shrijan')
